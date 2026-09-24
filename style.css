@@ -11,12 +11,13 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 h2 {color: rgb(47, 14, 138);
 font-family: Arial, Helvetica, sans-serif;
 font-size: medium;
+text-align: center;
 
 }
 
 h3 {
     border-left-style: solid;
-    color:darkred
+    color:rgb(32, 162, 18)
 }
 
 p {
@@ -36,11 +37,25 @@ z-index: -1;
 opacity: 0.7;
 }
 
-li {color: rgb(67, 230, 94);
+li {color: maroon;
 margin: 15px;
 }
-{
-    background-color: blue;
+
+#interests {
+    border: 3px solid rgb(47, 14, 138);
+    margin-bottom: 20px;
+    padding:20px;
+    background-color: rgb(226, 104, 130);
+    opacity: 0.6;
+}
+.bio {
+    background-color: rgb(194, 203, 20);
+    padding: 20px;
+    border: 3px solid rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: rgb(47, 14, 138);
+    opacity: 0.7;
 }
 =======
 
