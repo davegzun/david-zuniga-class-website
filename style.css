@@ -1,13 +1,14 @@
 <<<<<<< HEAD
-body {background-color:darkcyan}
+body {
+   }
 h1 {
-color:seashell;
+color:rgb(122, 16, 187);
 text-align: center;
 border-bottom-style: solid;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h2 {color: aliceblue;
+h2 {color: rgb(47, 14, 138);
 font-family: Arial, Helvetica, sans-serif;
 font-size: medium;
 
@@ -19,7 +20,7 @@ h3 {
 }
 
 p {
-color:white;
+color:rgb(46, 15, 148);
 font-size: medium;
 }
 
@@ -37,6 +38,9 @@ opacity: 0.7;
 
 li {color: rgb(67, 230, 94);
 margin: 15px;
+}
+{
+    background-color: blue;
 }
 =======
 
