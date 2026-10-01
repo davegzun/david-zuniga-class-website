@@ -1,0 +1,54 @@
+{
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+body{
+    background: green;
+    font-family: helvetica, sans-serif;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header{
+    background:pink;
+    padding: 20px;
+}
+
+left-sidebar{
+background: blue;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+main-content{
+    background: rgb(227, 24, 24);
+    margin-left: 200px;
+    padding: 20px;
+}
+
+right-sidebar{
+    background: blue;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+footer{
+    background: pink;
+    padding: 20px;
+}
