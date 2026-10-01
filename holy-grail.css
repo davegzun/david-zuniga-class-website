@@ -49,3 +49,9 @@ body{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+.page{
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    height: 100vh;
+}
