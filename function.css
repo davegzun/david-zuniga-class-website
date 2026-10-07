@@ -1,4 +1,14 @@
-img{
-    width: 100%;
+
+body {
+    background: cadetblue;
+    font-family: helvetica, sans-serif;
+    color: black;
+    font-size: 32px;
+    height: 100vh;
+    text-align: center;
+
+}
+image {
+    width: 200px;
     height: auto;
 }

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="function.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transforming Robots</title>
@@ -41,6 +42,18 @@
     </script>
 
 <img id="G-unicorn" src="Images/Phenex Unicorn Mode.jpg.webp" alt="Phenex Unicorn Mode" width="500">
+
+<script>
+        const image = document.getElementById("G-unicorn");
+
+        image.addEventListener("mouseenter", function() {
+            image.src = "Images/Phenex Unicorn Destroy Mode.jpg.webp";
+        });
+
+        image.addEventListener("mouseleave", function() {
+            image.src = "Images/Phenex Unicorn Mode.jpg.webp";
+        });
+    </script>
 
 </body>
 </html>
