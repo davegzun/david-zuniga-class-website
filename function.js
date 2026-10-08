@@ -1,32 +1,29 @@
-<img
-    id="W-unicorn"
-    src="Unicorn Gundam Unicorn Mode.jpg.webp"
-    onmouseover="changeImage()"
-    onmouseout="restoreImage()"
->
+const whiteUnicorn = document.getElementById("W-unicorn");
+const blackUnicorn = document.getElementById("B-unicorn");
+const goldUnicorn = document.getElementById("G-unicorn");
 
-<script>
-function changeImage() {
-    document.getElementById("W-unicorn").src = "Unicorn Gundam Destroy Mode.jpg.webp";
-}
+whiteUnicorn.addEventListener("mouseenter", function() {
+    whiteUnicorn.src = "Images/Unicorn Gundam Destroy Mode.jpg.webp";
+});
 
-function restoreImage() {
-    document.getElementById("W-unicorn").src = "Unicorn Gundam Unicorn Mode.jpg.webp";
-}
+whiteUnicorn.addEventListener("mouseleave", function() {
+    whiteUnicorn.src = "Images/Unicorn Gundam Unicorn Mode.jpg.webp";
+});
 
 
-<img
-    id="B-unicorn"
-    src="Images/Banshee unicorn Mode.jpg.webp"
-    onmouseover="changeImage2()"
-    onmouseout="restoreImage2()"
->
+blackUnicorn.addEventListener("mouseenter", function() {
+    blackUnicorn.src = "Images/Banshee Destroy Mode.jpg.webp";
+});
 
-function changeImage2() {
-    document.getElementById("B-unicorn").src = "Images/Banshee Destroy Mode.jpg.webp";
-}
+blackUnicorn.addEventListener("mouseleave", function() {
+    blackUnicorn.src = "Images/Banshee unicorn Mode.jpg.webp";
+});
 
-function restoreImage2() {
-    document.getElementById("B-unicorn").src = "Images/Banshee unicorn Mode.jpg.webp";
-}
-</script>
+
+goldUnicorn.addEventListener("mouseenter", function() {
+    goldUnicorn.src = "Images/Phenex Destroy Mode.jpg.webp";
+});
+
+goldUnicorn.addEventListener("mouseleave", function() {
+    goldUnicorn.src = "Images/Phenex Unicorn Mode.jpg.webp";
+});
