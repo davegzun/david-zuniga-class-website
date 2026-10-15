@@ -7,7 +7,7 @@ text-align: center;
 border-bottom-style: solid;
 font-family: Georgia, 'Times New Roman', Times, serif;
 width: 65%;
-margin: 0 auto;
+margin: 0 auto 20px auto;
 }
 
 h2 {color: rgb(47, 14, 138);
@@ -16,7 +16,7 @@ font-size: medium;
 text-align: center;
 border-bottom-style: solid;
 width: 65%;
-margin: 0 auto;
+margin: 0 auto 20px auto;
 }
 
 h3 {
@@ -65,6 +65,7 @@ margin: 15px;
     opacity: 0.7;
     width: 1200px;
     font-size: large;
+    margin: 0 auto 20px auto;
 }
 body{
     background-color: rgb(73, 118, 224);
