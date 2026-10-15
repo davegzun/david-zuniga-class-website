@@ -12,11 +12,10 @@ body{
     text-align: center;
 }
 
-.middle{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    display: grid 1;
+.middle {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 10px;
 }
 
 
